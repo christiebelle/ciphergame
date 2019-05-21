@@ -39,17 +39,3 @@ elif task == 'bf':
                 else:
                     newMessage += character
             print('Key #%s: %s'%(i, newMessage))
-
-# for i in range(len(alphabet)):
-#     for character in message:
-#         position = alphabet.find(character)
-#         newPosition = position - i
-#         if newPosition > 0:
-#             newPosition = position + len(alphabet)
-#
-#         newMessage.join(character)
-#     else:
-#         newMessage = newMessage + character
-#     print('Key #%s: %s'%(i, newMessage))
-
-# print('Your message is now: ' + newMessage)
