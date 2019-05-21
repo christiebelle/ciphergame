@@ -15,7 +15,7 @@ if task == 'e':
             newMessage += newCharacter
         else:
             newMessage += character
-            print('Your message is now: ' + newMessage)
+    print('Your message is now: ' + newMessage)
 elif task == 'd':
     key = input('Please enter a key: ')
     for character in message:
@@ -26,13 +26,14 @@ elif task == 'd':
             newMessage += newCharacter
         else:
             newMessage += character
-        print('Your message is now: ' + newMessage)
+    print('Your message is now: ' + newMessage)
 elif task == 'bf':
         for i in range(len(alphabet)):
+            newMessage = ''
             for character in message:
                 if character in alphabet:
                     position = alphabet.find(character)
-                    newPosition = (position + i) % 26
+                    newPosition = (position - i) % 26
                     newCharacter = alphabet[newPosition]
                     newMessage += newCharacter
                 else:
