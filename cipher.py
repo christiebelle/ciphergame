@@ -28,7 +28,6 @@ elif task == 'd':
             newMessage += character
         print('Your message is now: ' + newMessage)
 elif task == 'bf':
-    for l in range(len(message)):
         for i in range(len(alphabet)):
             for character in message:
                 if character in alphabet:
