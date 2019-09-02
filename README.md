@@ -16,11 +16,9 @@ To Run (Windows machine):
  A command window will open up with the app running.
  
  Typing:
- - 'e' will encrypt a message
- - 'd' will decrypt a message
- - 'q' will quit the application
+ - e will encrypt a message
+ - d will decrypt a message
+ - q will quit the application
  
  In all cases you can set the cipher, so once you have typed in your message you will be asked to set the key.
- 
- 
- **Note: typing e or d or q will not work. these, and your message, must be typed inside single quotation marks.
+
